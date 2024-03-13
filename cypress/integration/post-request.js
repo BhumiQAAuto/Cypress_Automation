@@ -10,7 +10,7 @@ describe("Post Request", () => {
       url: "http://localhost:3000/posts",
       body: {
         title: randomTitle,
-        author: "Sarah Jones"
+        author: "abc"
       }
     }).then(response => {
       expect(response.status).to.eql(201)
