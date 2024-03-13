@@ -21,16 +21,9 @@
     "cypress-multi-browser": "npm run triggerAllTests-autostore -- --browser electron --headed & npm run triggerAllTests-autostore -- --browser edge --headed",
     "test": "npm run cypress-regression-pack"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/YuriyPent/Cypress_V6_UI-Automation-Testing.git"
+  "author": "Bhumisha",
+  "license": "ISC"
   },
-  "author": "YuriyPent",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/YuriyPent/Cypress_V6_UI-Automation-Testing/issues"
-  },
-  "homepage": "https://github.com/YuriyPent/Cypress_V6_UI-Automation-Testing#readme",
   "devDependencies": {
     "cypress": "^9.2.0",
     "cypress-file-upload": "^5.0.8",
