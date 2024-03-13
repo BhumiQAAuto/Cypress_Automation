@@ -40,8 +40,8 @@ describe("Test Contact Us form via Automation Test Store", () => {
         });
         cy.xpath('//h2[starts-with(text(), "Con")]/following-sibling::ul/li[1]').contains("+123 456 7890");
         cy.xpath('//h2[starts-with(text(), "Con")]/following-sibling::ul/li[2]').contains("admin@automationteststore.com");
-        cy.get('#ContactUsFrm_first_name').type("Joe");
-        cy.get('#ContactUsFrm_email').type("joe_blog01@gmail.com");
+        cy.get('#ContactUsFrm_first_name').type("bhumisha");
+        cy.get('#ContactUsFrm_email').type("bhumisha@gmail.com");
         cy.get('#ContactUsFrm_email').should('have.attr', 'name', 'email');
         cy.get('#ContactUsFrm_enquiry').type("Do you provide additional on bulk orders?");
         cy.get("button[title='Submit']").click();
